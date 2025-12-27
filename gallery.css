@@ -1,0 +1,56 @@
+:root {
+  --light: #f5f1ee;
+  --light-hover: #f0eae6;
+  --light-active: #dfd4ca;
+  --normal: #987555;
+  --normal-hover: #89694d;
+  --normal-active: #7a5e44;
+  --dark: #725840;
+  --dark-hover: #5b4633;
+  --dark-active: #443526;
+  --darker: #35291e;
+  --shadow: 0 4px 4px 0 rgba(0, 0, 0, 25%);
+}
+.gallery-wrapper {
+  background-color: var(--light);
+}
+.gallery-header img {
+  width: 100%;
+  /* height: 438px; */
+  margin-bottom: 60px;
+}
+.gallery-main {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  gap: 12px;
+  padding: 25px;
+}
+.gallery-images {
+  display: flex;
+  gap: 12px;
+  justify-content: center;
+}
+.gallery-images img {
+  border-radius: 10px;
+  transition: all 0.5s;
+  width: 300px;
+}
+
+.gallery-images img:hover {
+  box-shadow: 2px 2px 5px rgba(149, 149, 149, 0.574);
+  filter: brightness(80%);
+}
+
+@media (max-width: 765px) {
+  .gallery-main {
+    max-width: 765px;
+    
+  }
+  .gallery-images img {
+    width: 204px;
+  }
+  .hidden-img {
+    display: none;
+  }
+}

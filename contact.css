@@ -1,0 +1,187 @@
+:root {
+  --light: #f5f1ee;
+  --light-hover: #f0eae6;
+  --light-active: #dfd4ca;
+  --normal: #987555;
+  --normal-hover: #89694d;
+  --normal-active: #7a5e44;
+  --dark: #725840;
+  --dark-hover: #5b4633;
+  --dark-active: #443526;
+  --darker: #35291e;
+  --shadow: 0 4px 4px 0 rgba(0, 0, 0, 25%);
+}
+.contact-page img {
+  width: 100%;
+  border-radius: 0 0 20px 20px;
+}
+.contact-information {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  max-width: 1007px;
+}
+.contact-information h2 {
+  font-weight: 400;
+  margin: 15px;
+}
+.contact-information img {
+  height: 46px;
+}
+.contact-information h3 {
+  font-weight: 500;
+}
+.phone-address {
+  display: flex;
+  gap: 42px;
+}
+.info-content {
+  display: flex;
+  align-items: center;
+  background-color: var(--light);
+  width: 100%;
+  margin-right: 10px;
+  padding: 25px 55px;
+  gap: 16px;
+  border-radius: 18px;
+  border: solid 1px var(--light-active);
+}
+
+.info-text {
+  display: flex;
+  flex-direction: column;
+}
+
+.hours {
+  display: flex;
+  background-color: var(--light);
+  margin: 25px 0;
+  padding: 25px 0;
+  justify-content: space-evenly;
+  border-radius: 18px;
+  max-width: 1007px;
+  max-height: 414px;
+  border: solid 1px var(--light-active);
+}
+.hours-title {
+  display: flex;
+  align-items: center;
+  gap: 33px;
+}
+.day {
+  display: flex;
+  padding: 5px 0;
+  justify-content: space-between;
+}
+.hours-content {
+  padding: 15px 38px;
+  padding-right: 205px;
+}
+.hours-text {
+  height: 404px;
+  gap: 10px;
+  font-size: 1.2rem;
+  display: flex;
+  flex-direction: column;
+  align-content: space-between;
+}
+
+iframe {
+  border-radius: 16px;
+  overflow: hidden;
+  margin: 25px;
+}
+
+@media (max-width: 765px) {
+  .map {
+    display: none;
+  }
+  .phone-address {
+    flex-direction: column;
+    padding: 5px;
+  }
+  .hours-text {
+    text-align: center;
+    font-size: 1rem;
+    padding: 0;
+    
+  }
+  .contact-information {
+    max-width: 70%;
+    gap: 14px;
+  }
+  .contact-information h2 {
+    margin: 10px 0;
+    text-align: center;
+  }
+  .hours {
+    margin: 0;
+    padding: 0;
+    height: 320px;
+  }
+  .hours-content {
+    width: 80%;
+    padding: 10px 0;
+  }
+  .phone-address {
+    margin: 0;
+    padding: 0;
+    gap: 14px;
+  }
+}
+
+.get-in-touch {
+  margin: auto;
+  width: 909px;
+  display: flex;
+  flex-direction: column;
+  gap: 23px;
+  padding: 28px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+  border-radius: 16px;
+  margin-bottom: 20px;
+}
+.get-in-touch h1 {
+  font-weight: 400;
+}
+.get-in-touch input {
+  padding: 15px;
+}
+.name {
+  background-color: var(--light-hover);
+  border: none;
+  height: 39px;
+  width: 361px;
+}
+.name-text,
+.num-mail {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 18px;
+}
+.message-btn {
+  background-color: var(--normal);
+  padding: 10px;
+  color: var(--light);
+  font-size: 1rem;
+  border:none
+}
+.message-btn a {
+  text-decoration: none;
+  color: var(--light);
+}
+.message input {
+  height: 148px;
+  width: 100%;
+  background-color: var(--light-hover);
+  border: none;
+  line-height: 1;
+  padding-bottom: 120px;
+}
+@media (max-width: 765px) {
+  .get-in-touch {
+    width: 80%;
+    margin-top: 15px;
+  }
+}
