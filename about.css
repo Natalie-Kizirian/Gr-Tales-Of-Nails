@@ -160,17 +160,20 @@ body {
   .cards {
     padding: 10px;
     width: 100%;
-
+    flex-direction: column;
     gap: 20px;
+    margin: auto;
+    padding: 0;
+    align-items: center;
   }
   .values {
     max-width: 765px;
     display: flex;
-    justify-content: flex-start;
-    overflow-x: auto;
+
+    justify-items: center;
     gap: 10px;
   }
   .card {
-    padding: 4px;
+    padding: 40px;
   }
 }
