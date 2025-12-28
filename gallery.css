@@ -35,18 +35,18 @@
   border-radius: 10px;
   transition: all 0.5s;
   width: 300px;
+  object-fit: cover;
 }
 
 .gallery-images img:hover {
   box-shadow: 2px 2px 5px rgba(149, 149, 149, 0.574);
   filter: brightness(90%);
-   transform: scale(1.1);
+  transform: scale(1.1);
 }
 
 @media (max-width: 765px) {
   .gallery-main {
     max-width: 765px;
-    
   }
   .gallery-images img {
     width: 204px;
@@ -55,4 +55,3 @@
     display: none;
   }
 }
-

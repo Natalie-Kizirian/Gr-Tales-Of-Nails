@@ -121,11 +121,11 @@ body {
   justify-content: center;
   align-items: center;
   gap: 41px;
-
+  padding: 20px;
   background-color: var(--light-active);
 }
 .values h2 {
-  margin-top: 34px;
+  
   font-weight: 500;
 }
 .cards {

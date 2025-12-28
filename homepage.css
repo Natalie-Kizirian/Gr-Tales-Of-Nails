@@ -23,8 +23,8 @@ body {
   min-height: 100vh;
   overflow-x: hidden;
 }
-html{
-   scroll-behavior: smooth;
+html {
+  scroll-behavior: smooth;
 }
 
 /* Navigation Bar */
@@ -388,9 +388,7 @@ h4 {
 .reason-text {
   display: block;
   gap: 4px;
-  h2 {
-    font-weight: 400;
-  }
+  h2,
   h3 {
     font-weight: 400;
   }
@@ -484,6 +482,7 @@ h4 {
   color: var(--light);
   font-weight: 400;
 }
+
 .footer p {
   font-weight: 300;
   color: var(--light);
@@ -508,40 +507,39 @@ h4 {
     font-weight: 500;
     padding: 0;
   }
+
   .mobile {
     display: flex;
-    gap: 100px;
-    padding: 2px;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0%;
+    margin: 0%;
   }
   .footer {
     display: flex;
     gap: 15px;
-    justify-content: space-between;
+    flex-direction: column;
   }
-  .follow {
-    display: flex;
-    padding: 5px;
-    gap: 15px;
-  }
+
   .footer .logo {
     display: none;
   }
 }
 
- #scroll-top {
-        display: block;
-        width: 50px;
-        height: 50px;
-        background-color: var(--light-hover);
-        color: var(--darker);
-        position: fixed;
-        right: 30px;
-        bottom: 30px;
-        border-radius: 50%;
-        border: solid 1px var(--normal-active);
-        text-align: center;
-        text-decoration: none;
-        font-size: 20px;
-        font-weight: bold;
-        padding-top: 10px;
-      }
+#scroll-top {
+  display: block;
+  width: 50px;
+  height: 50px;
+  background-color: var(--light-hover);
+  color: var(--darker);
+  position: fixed;
+  right: 30px;
+  bottom: 30px;
+  border-radius: 50%;
+  border: solid 1px var(--normal-active);
+  text-align: center;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: bold;
+  padding-top: 10px;
+}
