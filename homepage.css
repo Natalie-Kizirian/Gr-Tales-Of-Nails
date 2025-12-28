@@ -241,7 +241,7 @@ h4 {
 .white-btn:active {
   background-color: var(--light-active);
 }
-/* Main Picture Grid */
+/* main-picture Grid */
 .image-grid {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -252,7 +252,7 @@ h4 {
 }
 
 .cell {
-  background-image: url(/Images/Main\ Picture.png);
+  background-image: url(./images/Main\ Picture.png);
   background-size: 200% 200%;
   background-repeat: no-repeat;
 
