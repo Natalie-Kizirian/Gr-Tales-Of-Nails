@@ -252,7 +252,7 @@ h4 {
 }
 
 .cell {
-  background-image: url(./images/Main\ Picture.png);
+  background-image: url(./images/main-picture.png);
   background-size: 200% 200%;
   background-repeat: no-repeat;
 
@@ -524,3 +524,4 @@ h4 {
     display: none;
   }
 }
+
