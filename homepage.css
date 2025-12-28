@@ -23,6 +23,9 @@ body {
   min-height: 100vh;
   overflow-x: hidden;
 }
+html{
+   scroll-behavior: smooth;
+}
 
 /* Navigation Bar */
 .nav-container {
@@ -524,3 +527,21 @@ h4 {
     display: none;
   }
 }
+
+ #scroll-top {
+        display: block;
+        width: 50px;
+        height: 50px;
+        background-color: var(--light-hover);
+        color: var(--darker);
+        position: fixed;
+        right: 30px;
+        bottom: 30px;
+        border-radius: 50%;
+        border: solid 1px var(--normal-active);
+        text-align: center;
+        text-decoration: none;
+        font-size: 20px;
+        font-weight: bold;
+        padding-top: 10px;
+      }
