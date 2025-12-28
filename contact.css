@@ -121,7 +121,7 @@ iframe {
   }
   .hours-content {
     width: 80%;
-    padding: 10px 0;
+    padding: 8px 0;
   }
   .phone-address {
     margin: 0;
@@ -190,4 +190,5 @@ iframe {
     gap: 8px;
   }
 }
+
 
