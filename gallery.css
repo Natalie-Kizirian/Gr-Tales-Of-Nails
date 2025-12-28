@@ -39,7 +39,8 @@
 
 .gallery-images img:hover {
   box-shadow: 2px 2px 5px rgba(149, 149, 149, 0.574);
-  filter: brightness(80%);
+  filter: brightness(90%);
+   transform: scale(1.1);
 }
 
 @media (max-width: 765px) {
@@ -54,3 +55,4 @@
     display: none;
   }
 }
+
