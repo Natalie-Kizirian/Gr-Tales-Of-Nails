@@ -24,7 +24,7 @@
   flex-direction: column;
   align-content: center;
   gap: 12px;
-  padding: 25px;
+  padding-bottom: 25px;
 }
 .gallery-images {
   display: flex;
@@ -55,3 +55,4 @@
     display: none;
   }
 }
+
