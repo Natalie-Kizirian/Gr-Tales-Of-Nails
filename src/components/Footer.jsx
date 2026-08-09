@@ -6,7 +6,7 @@ const iconStyle = "text-xl";
 function Footer() {
   const secondaryText = "text-sm font-light lg:text-lg";
   return (
-    <>
+    <footer className="w-full">
       <div className="bg-secondary w-full p-4 shadow-inner ring-inset">
         <div className="flex flex-col items-center justify-center border-b">
           <img
@@ -16,16 +16,17 @@ function Footer() {
           />
 
           <h2 className="font-alegreya text-xl font-light md:text-2xl">
-            Gr Tales Of Nails{" "}
+            Gr Tales Of Nails
           </h2>
         </div>
-
         <div className="mt-2 flex flex-col gap-5 p-9 text-center lg:justify-around">
           <div>
             <p className={`${secondaryText} font-normal`}>
               Επικοινωνήστε Μαζί Μας
             </p>
-            <p className={secondaryText}>21 3048 0798</p>
+            <a className={secondaryText} href="tel:2130480798">
+              21 3048 0798
+            </a>
           </div>
 
           <div>
@@ -41,31 +42,40 @@ function Footer() {
 
             <div className="flex justify-center gap-2">
               <a
+                rel="noopener noreferrer"
                 href="https://www.instagram.com/gr_talesofnails/"
                 target="_blank"
               >
-                {" "}
                 <IoLogoInstagram className={iconStyle} />
               </a>
-              <a href="https://www.tiktok.com/@talesofnailsgr" target="_blank">
+              <a
+                rel="noopener noreferrer"
+                href="https://www.tiktok.com/@talesofnailsgr"
+                target="_blank"
+              >
                 <FaTiktok className={iconStyle} />
               </a>
             </div>
           </div>
-          <p className="text-text-color/70 text-sm">
-            Designed and Developed by{" "}
-            <a
-              href="https://github.com/Natalie-Kizirian"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="hover:text-text-color font-medium text-[#5B4633] no-underline transition-colors"
-            >
-              Natalie
-            </a>
-          </p>
         </div>
       </div>
-    </>
+      <div className="border-primary bg-primary/35 w-full space-y-2 border-t py-2 text-center">
+        <p className="text-sm text-amber-950/80">
+          © {new Date().getFullYear()} GR Tales of Nails. All rights reserved.
+        </p>
+        <p className="text-text-color/70 text-sm">
+          Designed and Developed by{" "}
+          <a
+            href="https://github.com/Natalie-Kizirian"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="hover:text-text-color font-medium text-[#5B4633] no-underline transition-colors"
+          >
+            Natalie
+          </a>
+        </p>
+      </div>
+    </footer>
   );
 }
 export default Footer;
