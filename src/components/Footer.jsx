@@ -16,7 +16,7 @@ function Footer() {
           />
 
           <h2 className="font-alegreya text-xl font-light md:text-2xl">
-            Gr Tales  Of Nails{" "}
+            Gr Tales Of Nails{" "}
           </h2>
         </div>
 
@@ -52,6 +52,17 @@ function Footer() {
               </a>
             </div>
           </div>
+          <p className="text-text-color/70 text-sm">
+            Designed and Developed by{" "}
+            <a
+              href="https://github.com/Natalie-Kizirian"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:text-text-color font-medium text-[#5B4633] no-underline transition-colors"
+            >
+              Natalie
+            </a>
+          </p>
         </div>
       </div>
     </>
