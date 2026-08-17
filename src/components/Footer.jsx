@@ -1,9 +1,9 @@
 import { IoLogoInstagram } from "react-icons/io5";
 import { FaTiktok } from "react-icons/fa";
 
-const iconStyle = "text-xl";
-
 function Footer() {
+  const iconStyle = "text-xl";
+
   const secondaryText = "text-sm font-light lg:text-lg";
   return (
     <footer className="w-full">

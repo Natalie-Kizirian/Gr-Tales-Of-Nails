@@ -6,7 +6,7 @@ function NavBar({ showModal }) {
     "hover:text-primary px-2 md:px-6 py-2 cursor-pointer rounded-xl hover:rounded-md hover:bg-[#F5F1EE] transition-all duration-300 whitespace-nowrap";
   return (
     <>
-      <header className="bg-primary lg:bg-white-color/90 sticky top-0 z-20 flex w-full items-center justify-between gap-3 p-3 px-10 shadow-lg md:flex-row">
+      <header className="bg-primary lg:bg-white-color/90 sticky top-0 z-20 flex w-full items-center justify-between gap-3 p-2 px-8 shadow-lg md:flex-row">
         <div className="flex items-center">
           <img
             className="h-16 w-16 md:h-20 md:w-20"

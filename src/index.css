@@ -13,7 +13,7 @@
 
   --color-secondary: #dfd4ca;
   --color-primary-hover: #89694d;
-  --color-primary-dark: #7a5e44;
+  --color-primary-active: #7a5e44;
 }
 
 body {
@@ -54,7 +54,6 @@ body {
   background-color: var(--color-primary-hover);
   transition: ease-in-out 500ms;
 }
-
 
 html {
   scroll-behavior: smooth;

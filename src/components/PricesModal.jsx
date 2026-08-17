@@ -59,7 +59,7 @@ function PricesModal({ closeModal }) {
       ></div>
       <div className="bg-secondary fixed top-20 left-1/2 z-80 max-h-[80vh] -translate-x-1/2 overflow-y-auto rounded-lg drop-shadow-lg min-[320px]:w-[95vw] lg:w-1/2 [&::-webkit-scrollbar]:hidden">
         {/* Head */}
-        <div className="bg-primary-dark/80 sticky top-0 flex items-center justify-between rounded-b-sm p-3 font-semibold shadow-2xl">
+        <div className="bg-primary-active/80 sticky top-0 flex items-center justify-between rounded-b-sm p-3 font-semibold shadow-2xl">
           <h1 className="m-auto text-center text-xl">Τιμοκαταλογος</h1>
           <button
             onClick={closeModal}

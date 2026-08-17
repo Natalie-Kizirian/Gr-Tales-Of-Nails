@@ -7,7 +7,7 @@ function About() {
   const textStyles = "";
   return (
     <>
-      <h1 className="p-4 text-center text-2xl font-bold">
+      <h1 className="p-4 text-center text-xl font-bold">
         Λίγα Λόγια Για Εμάς
       </h1>
 
