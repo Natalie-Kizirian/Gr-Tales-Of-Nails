@@ -66,7 +66,7 @@ function Footer() {
         <p className="text-text-color/70 text-sm">
           Designed and Developed by{" "}
           <a
-            href="https://github.com/Natalie-Kizirian"
+            href="https://natalie-kizirian.github.io/Natalies-Portfolio/"
             target="_blank"
             rel="noopener noreferrer"
             className="hover:text-text-color font-medium text-[#5B4633] no-underline transition-colors"
