@@ -1,6 +1,6 @@
 import { IoLogoInstagram } from "react-icons/io5";
 import { FaTiktok } from "react-icons/fa";
-
+import logo from "../assets/gr-logo2.png"
 function Footer() {
   const iconStyle = "text-xl";
 
@@ -11,7 +11,7 @@ function Footer() {
         <div className="flex flex-col items-center justify-center border-b">
           <img
             className="h-16 w-16 md:h-20 md:w-20"
-            src="./gr-logo.png"
+            src={logo}
             alt="Logo"
           />
 

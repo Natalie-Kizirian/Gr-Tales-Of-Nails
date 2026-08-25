@@ -1,4 +1,6 @@
 import { useState } from "react";
+import logo from "../assets/gr-logo2.png"
+
 
 function NavBar({ showModal }) {
   const [activeMenu, setActiveMenu] = useState(false);
@@ -10,7 +12,7 @@ function NavBar({ showModal }) {
         <div className="flex items-center">
           <img
             className="h-16 w-16 md:h-20 md:w-20"
-            src="./gr-logo2.png"
+            src={logo}
             alt="Logo"
           />
           <div className="hidden px-2 lg:block">
