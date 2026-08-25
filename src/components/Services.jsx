@@ -1,10 +1,12 @@
+import pattern from "../assets/gr-pattern.png"
 function Services({ showModal }) {
   const cardStyles =
     "bg-secondary rounded-xl p-2 w-full  shadow-xl md:w-6/8  h-45";
   const titleStyles = "text-lg font-semibold border-b mb-2";
   return (
     <>
-      <div className="bg-primary-active flex flex-col items-center  gap-3 p-3 lg:p-10">
+      <div className=" flex flex-col items-center bg-center bg-repeat gap-3 p-3 lg:p-10"
+       style={{ backgroundImage: `url(${pattern}) ` }}>
         <h1 className="text-white-color text-xl font-semibold">
           Οι υπηρεσίες μας
         </h1>

@@ -3,7 +3,7 @@ import mainIconDesktop from "../assets/Vector.png";
 
 function Home() {
   return (
-    <main className="flex w-full items-center justify-center p-4">
+    <main className="flex w-full items-center justify-center p-4 bg-bg">
       <div className="flex flex-col items-start gap-9 lg:mx-auto lg:px-20">
         <h2 className="m-auto text-start text-2xl font-bold lg:m-0">
           Καλώς ορίσατε στο <br className="lg:hidden" /> Gr Tales of Nails{" "}

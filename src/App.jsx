@@ -2,11 +2,13 @@ import NavBar from "./components/NavBar";
 import Home from "./components/Home";
 import About from "./components/About";
 import Services from "./components/Services";
+import Testimonials from "./components/Testimonials";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 import PricesModal from "./components/PricesModal";
 import { IoIosArrowUp } from "react-icons/io";
 import { useState } from "react";
+import bgImg from "./assets/image1.png";
 
 function App() {
   const [modalisVisible, setModalVisible] = useState(false);
@@ -26,6 +28,8 @@ function App() {
         <About />
       </section>
 
+      <Testimonials />
+
       {modalisVisible && (
         <PricesModal closeModal={() => setModalVisible(false)} />
       )}
@@ -34,7 +38,7 @@ function App() {
       </section>
 
       <a href="#home" className=" ">
-        <IoIosArrowUp className="text-text-color bg-secondary/60  fixed right-3 bottom-3 ml-auto flex h-10 w-10 justify-end rounded-2xl border text-3xl" />
+        <IoIosArrowUp className="text-text-color bg-secondary/60 fixed right-3 bottom-3 ml-auto flex h-10 w-10 justify-end rounded-2xl border text-3xl" />
       </a>
 
       <Footer />
