@@ -59,17 +59,17 @@ function Footer() {
           </div>
         </div>
       </div>
-      <div className="border-primary bg-primary/35 w-full space-y-2 border-t py-2 text-center">
-        <p className="text-sm text-amber-950/80">
+      <div className="border-primary bg-primary w-full space-y-2 border-t py-2 text-center">
+        <p className="text-sm text-text-color">
           © {new Date().getFullYear()} GR Tales of Nails. All rights reserved.
         </p>
-        <p className="text-text-color/70 text-sm">
+        <p className="text-text-color text-sm">
           Designed and Developed by{" "}
           <a
             href="https://natalie-kizirian.github.io/Natalies-Portfolio/"
             target="_blank"
             rel="noopener noreferrer"
-            className="hover:text-text-color font-medium text-[#5B4633] no-underline transition-colors"
+            className="hover:text-text-color font-medium text-black no-underline transition-colors"
           >
             Natalie
           </a>

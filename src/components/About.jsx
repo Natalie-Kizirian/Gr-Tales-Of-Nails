@@ -6,8 +6,8 @@ function About() {
   const imageStyles = "rounded-tl-3xl h-80 rounded-br-3xl lg:w-1/2  m-auto ";
   const textStyles = "";
   return (
-    <>
-      <h1 className="p-4 text-center text-xl font-bold">
+    <div className="bg-bg">
+      <h1 className="p-4 text-center text-xl font-bold ">
         Λίγα Λόγια Για Εμάς
       </h1>
 
@@ -49,7 +49,7 @@ function About() {
           </p>
         </div>
       </div>
-    </>
+    </div>
   );
 }
 export default About;

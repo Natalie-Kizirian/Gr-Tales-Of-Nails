@@ -8,7 +8,7 @@ function Contact() {
   const cardStyles =
     "bg-white-color border-secondary flex w-full flex-col gap-2 rounded-2xl border p-4 drop-shadow-xl h-full md:w-6/8";
   return (
-    <>
+    <div className="bg-bg">
       <h1 className="border-t pt-5 text-center text-xl font-bold">
         Επικοινωνήστε Μαζί Μας
       </h1>
@@ -69,7 +69,7 @@ function Contact() {
           ></iframe>
         </div>
       </div>
-    </>
+    </div>
   );
 }
 export default Contact;
